@@ -1,0 +1,67 @@
+body{
+    background-color: #28274a;
+}
+.tabla-container{
+    display: flex;
+    justify-content: center;
+}
+.inpus{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin-top: 10px;
+}
+td {
+    background-color: #fff;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.muro {
+    background-color: #6d6c6c;
+    color: #6d6c6c;
+}
+.camino {
+    background-color: #00FFFF;
+}
+.inicio {
+    background-color: #00FF00;
+}
+.fin {
+    background-color: #FF0000;
+}
+
+#agregarMuroButton{
+    background: #28274a;
+    border: #fff solid 1px;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+}
+#resultado{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.label-inicio{
+    background-color: #00FF00;
+    color: black;
+    padding: 1px;
+    
+}
+.label-fin{
+    background-color: red;
+    padding: 1px;
+}
+#acturalizar{
+    background-color: #00FFFF;
+    width: 100px;
+    height: 30px;
+}
